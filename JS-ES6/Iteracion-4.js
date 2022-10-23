@@ -23,7 +23,7 @@ const users1 = [
 
 const nombres1 = users1.map((user2) => {
 
-    if (user2.name.includes("A")) {
+    if (user2.name[0].includes("A")) {
       user2.name = "Anacleto";
     }
     return user2.name;
